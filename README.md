@@ -37,8 +37,9 @@ Below are the installation instructions for MongoDB on Windows, macOS, and Linux
    brew install mongodb-community
    ```
 2. MacPorts: If you prefer MacPorts, use the following commands to install MongoDB.
- ```bash
-  sudo port install mongodb
+   
+   ```bash
+   sudo port install mongodb
    ```
 ### Linux
 The installation process for MongoDB on Linux may vary depending on the distribution you are using. Here, we'll cover the general steps, but for specific distributions, refer to the official MongoDB documentation.
@@ -48,7 +49,7 @@ The installation process for MongoDB on Linux may vary depending on the distribu
    ```
 2. Add MongoDB Repository:
   for Ubuntu:
- ```bash
+   ```bash
    echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu $(lsb_release -cs)/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
    ```
   for Debian:
