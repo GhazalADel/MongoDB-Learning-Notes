@@ -57,3 +57,4 @@ The installation process for MongoDB on Linux may vary depending on the distribu
    sudo apt-get update
    sudo apt-get install -y mongodb-org
    ```
+Happy learning! 🚀
